@@ -1,0 +1,33 @@
+html{
+    font-size: 62.5%;
+}
+.area{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+header,
+nav,
+main,
+aside,
+footer{
+    font-size: 3rem;
+    text-align: center;
+    padding: 1rem;
+    background-color: orange;
+
+}
+
+header{
+    grid-column: 2 / 4;
+}
+nav{
+    grid-column: 2 / 4;
+    grid-row: 2 / 4 ;
+}
+footer{
+    grid-column: 1 / 4;
+}
+main{
+    grid-row: 1 /3;
+}
