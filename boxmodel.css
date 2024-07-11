@@ -1,0 +1,9 @@
+.conteudo{
+    border: 4px solid green;
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+    padding:10px ;
+    margin:20px ;
+    display: block;
+}

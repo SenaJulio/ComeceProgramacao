@@ -1,0 +1,14 @@
+html{
+    font-size: 62.5%;
+}
+.area{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.square{
+    font-size: 4rem;
+    background-color: orange;
+}

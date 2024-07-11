@@ -1,0 +1,14 @@
+body{
+  /*  background-color: black;
+    color: rgb(red, green, blue);*/
+    background-image: linear-gradient(45deg, #75a6ea, #4b4);
+     }
+.square{
+    width: 200px;
+    height: 200px;
+    background-color: #e94708;
+    background-image: linear-gradient(to right,black,rgb(192, 233, 8));
+   
+}
+/*rgba também opção de cores
+fazer gradiente use background-image */
