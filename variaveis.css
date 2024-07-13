@@ -1,0 +1,24 @@
+:root{
+    --azul:#1883b8;
+    --branco:#ffffff;
+}
+
+html{
+    font-size: 65.5%;
+}
+body{
+    font-size: 1.5rem;
+    background-color:var(--azul);
+    color:var(--branco) ;
+}
+section{
+    background-color:var(--branco);
+    color:var(--azul) ;
+    padding: 2rem;
+}
+button{
+    border: 2px solid var(--azul) ;
+    background-color:var(--branco) ;
+    color:var(--azul) ;
+    padding: 1rem;
+}
