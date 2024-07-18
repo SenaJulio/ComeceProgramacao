@@ -7,23 +7,26 @@ body{
 
 main{
  display: grid;
+
  grid-template-areas: 
      "header  header  header    header  header  header"
      "nav     main    main     main   main    aside "
-     "footer   footer   footer   footer  footer footer";
+     "nav  footer   footer   footer  footer footer";
      margin: auto;
    }
 
+
 header{
-    background-color: orange;
-    grid: header ;
-    padding: 20px;
+     grid-area:header;
+     padding: 20px;
+     background-color: orange;
    
 }
 
 nav{
-    background-color: red;
+    
     grid-area: nav ;
+    background-color: red;
     padding: 20px;
 }
 
