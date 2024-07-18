@@ -1,0 +1,49 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 2rem;
+}
+
+main{
+ display: grid;
+ grid-template-areas: 
+     "header  header  header    header  header  header"
+     "nav     main    main     main   main    aside "
+     "footer   footer   footer   footer  footer footer";
+     margin: auto;
+   }
+
+header{
+    background-color: orange;
+    grid: header ;
+    padding: 20px;
+   
+}
+
+nav{
+    background-color: red;
+    grid-area: nav ;
+    padding: 20px;
+}
+
+aside{
+    background-color: yellow;
+   grid-area: aside ;
+   padding: 20px;
+}
+
+.main{
+    background-color: blue;
+     grid-area: main ;
+     padding: 20px;
+ 
+}
+
+footer{
+    background-color: pink;
+    grid-area: footer;
+    padding: 20px;
+
+   
+}
