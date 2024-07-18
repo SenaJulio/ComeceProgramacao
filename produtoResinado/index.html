@@ -1,52 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loja de Produtos Resinados</title>
     <link rel="stylesheet" href="style.css">
+    <title>Segundo Projeto</title>
 </head>
 <body>
     <header>
-        <h1>Loja de Produtos Resinados</h1>
+        <nav>
+            <ul>
+                <li><a href="http://">Home</a></li>
+                <li class="nav-hide"><a href="http://">Sobre</a></li>
+                <li class="nav-hide"><a href="http://">Serviços</a></li>
+                <li><a href="http://">Portifólio</a></li>
+                <li><a href="http://">Contato</a></li>
+                
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#products">Produtos</a></li>
-            <li><a href="#about">Sobre</a></li>
-            <li><a href="#contact">Contato</a></li>
-        </ul>
-    </nav>
-    <section id="home">
-        <h2>Bem-vindo à nossa loja!</h2>
-        <p>Explore nossos produtos resinados únicos.</p>
-    </section>
-    <section id="products">
-        <h2>Produtos</h2>
-        <div class="product-grid">
-            <!-- Produtos aqui -->
+    <main>
+        <section class="hero">
+     <h1>Agência XYZ</h1>
+     <P>Somos uma equipe de desenvolvedores apaixonados por criar experiências digitais incríveis</P>
+     <a href="http://" class="cta">Saiba Mais</a>
+        </section>
+        <section class="about">
+            <h2>Sobre Nós</h2>
+            <img src="images/team.jpg" alt="Equipe">
+            <p>Somos uma equipe de desenvolvedores apaixonados por criar ezxperiências digitais incríveis.</p>
+            <p>Nosso compromisso é com a inovação e a exccelência, e trabalhamos incansavelmente para 
+                trazer as mais recentes tecnologias e tendências para o projeto.</p>
+            <p>Cada membro da nossa equipe é altamente qualificado e possui uma profunda compreensão das 
+                melhores práticas de desenvolvimento, o que nos permite entregar soluções robustas e eficazes.</p>
+        </section>
+        <section class="services"> 
+        
+            <h2>Nossos Serviços</h2>
+            <div class="service-area">
+                <div class="service-item">
+                    <div class="service-icon">&#x1F4BB</div>
+                    <h3>Desenvolvimento Web</h3>
+                    <p>Criamos sites responsivos e otimizados para diversos dispositivos.</p>
+                    
+                </div>
+                <div class="service-item">
+                    <div class="service-icon"> &#x1F3A8</div>
+                    <h3>Design Gráfico</h3>
+                    <p>Desevolvvemos identidades visuais que destacam sua marca no mercado.</p>
+                    
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">&#x1F50D</div>
+                    <h3>SEO</h3>
+                    <p>Otimizamos seu site para melhor desempenho nos motores de busca.</p>
+                    
+                </div>
+        </div>
+    </section>  
+   
+    <section class="portifolio">
+         <h2>Nosso portifólio</h2>
+        <div class="grid">
+            <div class="grid-item">
+                <img src="images/port1.jpg" alt="portifólio 1">
+            </div>
+            <div class="grid-item">
+                <img src="images/port2.jpg" alt="portifólio 2">
+            </div>
+            <div class="grid-item">
+                <img src="images/port3.jpg" alt="portifólio 3">
+            </div>
+            <div class="grid-item">
+                <img src="images/port4.jpg" alt="portifólio 4">
+            </div>
         </div>
     </section>
-    <section id="about">
-        <h2>Sobre</h2>
-        <p>Informações sobre a loja e produtos.</p>
-    </section>
-    <section id="contact">
+
+    <section class="contact">
         <h2>Contato</h2>
         <form>
-            <label for="name">Nome:</label>
-            <input type="text" id="name" name="name">
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email">
-            <label for="message">Mensagem:</label>
-            <textarea id="message" name="message"></textarea>
-            <button type="submit">Enviar</button>
+            
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name">
+
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email">
+
+            <label for="msg">Mensagem:</label>
+            <textarea name="msg" id="msg" rows="10"></textarea>
+
+            <button>Enviar</button>
         </form>
     </section>
+    </main>
     <footer>
-        <p>&copy; 2024 Loja de Produtos Resinados</p>
+        <div>
+            <p>Agência XYZ</p>
+            <P>Todos os direitos reservados</P>
+        </div>
+        <div>
+            Feito por Julio Sena Viana.
+        </div>
     </footer>
-    <script src="script.js"></script>
 </body>
 </html>
