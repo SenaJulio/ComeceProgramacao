@@ -1,0 +1,41 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 2rem;
+}
+
+.area{
+ display: flex;
+ flex-wrap: wrap;
+ width: 300px;
+ height: 300px;
+ background-color: #ccc;
+ 
+}
+.red{
+background-color: red;
+width: 100px;
+order: 5;
+}
+.blue{
+background-color: blue;
+order: 2;
+width: 100px;
+}
+.orange{
+background-color: orange;
+width: 100px;
+order: 3;
+}
+.yellow{
+background-color: yellow;
+width: 100px;
+order: 4;
+}
+.pink{
+    background-color: pink;
+    width: 100px;
+    order: 1;
+   
+}

@@ -1,0 +1,12 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.8rem;
+}
+.area{
+    background-color: red;
+    height: 80px;
+    position:sticky;
+    top: 0;
+}
