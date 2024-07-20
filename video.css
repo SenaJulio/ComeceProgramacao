@@ -1,0 +1,18 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.8rem;
+    margin: 0;
+}
+video{
+    width: 100%;
+}
+.area{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 300px;
+    margin-top: -300px;
+    z-index: 10;
+    color: #fff;
+}
