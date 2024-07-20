@@ -1,0 +1,19 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.8rem;
+    margin: 0;
+}
+div + p{
+    background-color: red;
+}
+p~ul{
+
+}
+/*div p
+  div > p 
+  div + p  (p que estiver depois da div)
+  p~ul
+     
+  */

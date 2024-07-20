@@ -1,0 +1,23 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.8rem;
+    margin: 0;
+}
+.texto{
+   width: 200px;
+   border: 1px solid #000; 
+   word-wrap: break-word;
+   overflow: hidden;
+   white-space: nowrap;
+   text-overflow:ellipsis ;
+}
+/* word-wrap:break-word
+             break-all
+             keep-all
+overflow: hidden;
+white-space: nowrap
+text-overflow:ellipsis ;
+essas popriedades para colacar reticêcias no final do texto
+             */
