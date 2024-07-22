@@ -1,0 +1,31 @@
+html{
+ font-size: 62.5%;
+}
+body{
+    font-size: 2rem;
+}
+.dropdown .button{
+    background-color: darkgreen;
+    color: white;
+    font-size: 2rem;
+    width: 150px;
+    text-align: center;
+    padding: 15px;
+    cursor: pointer;
+}
+.dropdown .button:hover{
+    background-color: green;
+}
+.dropdown .button:hover +.area{
+    display: block;
+}
+.dropdown .area{
+    display: none;
+    width: 250px;
+    height: 200p;
+    background-color: lightseagreen;
+    position: absolute;
+}
+.dropdown:hover .area{
+    display: block;
+}

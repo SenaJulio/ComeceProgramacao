@@ -1,0 +1,23 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.8rem;
+    margin: 30px;
+}
+.search-input{
+    font-size: 2rem;
+    padding: 15px 20px 15px 20px;
+    background-image: url('lupinha.png');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 1px;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    outline: none;
+    width: 100px;
+    transition: all 0.4s ease;
+}
+.search-input:hover{
+    width: 300px;
+}
