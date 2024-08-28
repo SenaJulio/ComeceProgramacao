@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="localStorage.css">
     <title>Local Storage</title>
 </head>
 <body>
@@ -13,7 +14,14 @@
     <button onclick="salvar()">Salvar</button>
     <button onclick="ler()">Ler</button>
     <button onclick="limpar()">Limpar</button>
+    
 
+
+    <button onclick="setTheme('dark')">Dark mode</button>
+    <button onclick="setTheme('light')">Light mode</button>
+
+    <div id="theme"></div>
+    
     <script src="localStorage.js"></script>
 </body>
 </html>
